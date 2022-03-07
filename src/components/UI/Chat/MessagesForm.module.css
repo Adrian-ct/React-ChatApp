@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap");
+
+.buttonForm {
+  font-family: "Merriweather Sans", sans-serif;
+  margin: 30px 50px;
+  height: 30px;
+  width: 130px;
+  border-radius: 20px;
+  border-style: none;
+  cursor: pointer;
+  font-weight: bolder;
+  transition: all 0.5s ease;
+  color: #533e85;
+}
+
+.buttonForm:hover,
+.buttonForm:active {
+  background-color: rgb(5, 235, 158);
+  color: white;
+}
+
+.inputForm {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  height: auto;
+  width: 100%;
+  border-top: 3px solid white;
+}
+
+.input {
+  font-family: "Merriweather Sans", sans-serif;
+  margin: 0 20px;
+  padding: 0 20px;
+  width: 600px;
+  height: 40%;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  border-style: none;
+  background-color: white;
+  color: #2ee0cc;
+}
+
+.inputInvalid {
+  background-color: rgba(250, 26, 26, 0.479);
+  color: white;
+}

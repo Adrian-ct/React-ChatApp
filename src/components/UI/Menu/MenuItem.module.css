@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap");
+
+.li {
+  box-sizing: border-box;
+  color: rgb(67, 137, 230);
+  background-color: white;
+  border-radius: 20px;
+  width: 15rem;
+  max-width: 80%;
+  margin-bottom: 30px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  border: 2px solid rgb(130, 130, 150);
+}
+
+.p {
+  font-family: "Merriweather Sans", sans-serif;
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: bold;
+  display: inline;
+  width: 30%;
+  max-width: 40%;
+}
+.li:hover,
+.li:active {
+  background-color: #ffd365;
+  color: #008e89;
+}

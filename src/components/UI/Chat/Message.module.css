@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap");
+
+.message {
+  font-family: "Merriweather Sans", sans-serif;
+  overflow: auto;
+  margin: 3px 0;
+  font-weight: bolder;
+}
+
+.message-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 10px;
+  border-radius: 30px;
+  width: fit-content;
+  padding: 0px 20px;
+  height: 30px;
+}
+
+.sent-message-container {
+  background-color: rgb(22, 133, 197);
+}
+
+.sent-message {
+  color: white;
+}
+
+.received-message-container {
+  background-color: white;
+}
+
+.received-message {
+  color: rgba(4, 112, 175, 1);
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  margin: 10px 10px;
+  width: fit-content;
+  height: 30px;
+}
+
+.sentCard {
+  align-self: flex-end;
+  flex-direction: row;
+}
+
+.receivedCard {
+  align-self: flex-start;
+  flex-direction: row-reverse;
+}
+
+.profilePhoto {
+  border-radius: 50px;
+  height: 100%;
+}

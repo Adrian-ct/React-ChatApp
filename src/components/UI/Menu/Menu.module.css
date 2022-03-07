@@ -1,0 +1,26 @@
+.menuContainer {
+  padding: 0;
+  height: 100%;
+  width: 10%;
+  background-color: #008e89;
+  transition: all 0.5s ease-out;
+  border-right: solid 3px white;
+}
+.menuContainerHid {
+  width: fit-content;
+}
+.navbar {
+  height: 90%;
+  list-style: none;
+  width: 100%;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.hid {
+  transform: scale(0);
+}

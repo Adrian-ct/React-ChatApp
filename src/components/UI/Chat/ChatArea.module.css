@@ -1,0 +1,25 @@
+.chat_area {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.chat {
+  box-sizing: border-box;
+  width: 100%;
+  height: fit-content;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  border-right: 4px solid rgb(5, 158, 230);
+}
+.form-container {
+  justify-self: end;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #488fb1;
+}
